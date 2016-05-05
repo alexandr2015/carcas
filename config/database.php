@@ -52,13 +52,13 @@ return [
             'prefix' => '',
         ],
 
-        'mysql_usa' => [
+        'mysql' => [
             'driver' => 'mysql',
             'host' => env('DB_HOST', 'localhost'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'usa'),
+            'database' => env('DB_DATABASE', 'root'),
             'username' => env('DB_USERNAME', 'root'),
-            'password' => env('DB_PASSWORD', '123qwe'),
+            'password' => env('DB_PASSWORD', ''),
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',
@@ -68,11 +68,11 @@ return [
 
         'mysql_usa2' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'localhost'),
-            'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'usa2'),
-            'username' => env('DB_USERNAME', 'root'),
-            'password' => env('DB_PASSWORD', '123qwe'),
+            'host' => env('DB_HOST2', 'localhost'),
+            'port' => env('DB_PORT2', '3306'),
+            'database' => env('DB_DATABASE2', 'root'),
+            'username' => env('DB_USERNAME2', 'root'),
+            'password' => env('DB_PASSWORD2', ''),
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',
@@ -82,11 +82,11 @@ return [
 
         'mysql_usa3' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'localhost'),
-            'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'usa3'),
-            'username' => env('DB_USERNAME', 'root'),
-            'password' => env('DB_PASSWORD', '123qwe'),
+            'host' => env('DB_HOST3', 'localhost'),
+            'port' => env('DB_PORT3', '3306'),
+            'database' => env('DB_DATABASE3', 'root'),
+            'username' => env('DB_USERNAME3', 'root'),
+            'password' => env('DB_PASSWORD3', ''),
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',

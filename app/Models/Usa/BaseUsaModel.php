@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class BaseUsaModel extends Model
 {
-    protected $connection = 'mysql_usa';
+    protected $connection = 'mysql';
 }
